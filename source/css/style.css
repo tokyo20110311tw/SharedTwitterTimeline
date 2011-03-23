@@ -1,0 +1,8 @@
+@charset 'UTF-8';
+body {color:#ddd;font-family:'メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;background-color:#000;font-size:12px;}
+a {color:#69f;}
+#list {width:320px;}
+#list ul {list-style:none;}
+#list ul li {border-bottom-style:dashed;border-bottom-width:1px;border-bottom-color:#777;padding-left:10px;}
+#source {width:320px;}
+#source a {display:block;text-align:right;}
