@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Shared Twitter Timeline</title>
+<script type="text/javascript" src="http:// (yourhost) /js/jquery.js"></script>
+<script type="text/javascript" src="http:// (yourhost) /js/jquery.stt.js"></script>
+<style type="text/css">
+
+
+/* -------------------------------------------------------- */
+/* --▼▼▼▼▼▼▼ 見た目の変更はここから ▼▼▼▼▼▼▼-- */
+/* -------------------------------------------------------- */
+
+/* [参考]色指定は http://en.wikipedia.org/wiki/Web_safe_color#Color_table を見てください */
+
+/* フォントサイズ、フォントカラー、フォント種類、背景色 */
+body {
+  font-size: 12px;
+  color: #ddd;
+  font-family: 'メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  background-color: #000;
+}
+
+/* リンクの色 */
+a {
+  color: #69f;
+}
+
+/* ツィート全体の余白 */
+#list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* ツィート毎の下線 */
+#list ul li {
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  border-bottom-color: #777;
+  padding-left: 0px;
+}
+
+/* ソースコードURL */
+#source a {
+  display: block;
+  text-align: right;
+}
+
+/* -------------------------------------------------------- */
+/* --▲▲▲▲▲▲▲ 見た目の変更はここまで ▲▲▲▲▲▲▲-- */
+/* -------------------------------------------------------- */
+
+
+</style>
+</head>
+<body>
+<div id="list">
+<ul id="result">
+</ul>
+</div>
+<div id="source">
+<a href="https://github.com/tokyo20110311tw/SharedTwitterTimeline">source code</a>
+</div>
+</body>
+</html>
